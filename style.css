@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+	margin: 0px;
+}
+
+textarea
+{
+	resize: none;
+}
+
+.header
+{
+	display: flex;
+}
+
+img.mainIcon
+{
+	width: 80px;
+	height: 100px;
+	padding-left: 10px;
+}
+
+.inHeader
+{
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+
+	padding-left: 170px;
+
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	color: #ff8000;
+}
+
+.emailIcon
+{
+	width: 40px;
+	height: 40px;
+
+	padding-left: 60px;
+}
+
+.HeaderText
+{
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.HeaderTextPhone
+{
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+img.bigPhoto
+{
+	height: 900px;
+	width: 1519px;
+}
+.textOpis{
+
+	width: 600px;
+	height: 400px;	
+
+	color: white;
+	font-size: 35px;
+	font-family: 'Mulish', sans-serif;
+
+	position: relative;
+	display: block;
+
+	bottom: 710px;
+	left: 80px;
+
+	word-wrap: break-word;
+}
+.textOpisZag{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Mulish', sans-serif;
+	font-weight: bold;
+
+	position: relative;
+	display: block;
+
+	bottom: 710px;
+	left: 250px;
+}
+.opis
+{
+	overflow: hidden;
+	height:900px;
+}
+.UpperButtons
+{
+	position: relative;
+
+	bottom: 900px;
+	left: 32%;
+	width:602px;
+	
+	
+
+}
+
+.leftButton
+{
+	float: left;
+	background: white;
+	width:300px;
+	height: 40px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+	border-right: 1px black solid;
+
+	font-size: 25px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+}
+
+.rightButton
+{
+	float: right;
+	background: white;
+	width:300px;
+	height: 40px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-left: 1px black solid;
+
+	font-size: 25px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+}
+
+
+
+a
+{
+	text-decoration: none;
+	color: #ff8000;
+
+}
+
+a:hover
+{
+	color: #e27100;
+}
+
+a:visited
+{
+	color: #ff8000;
+}
+
+.ZakazZag
+{
+	font-size: 50px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+	font-weight: normal;
+
+	margin-top: 20px;
+}
+
+.ZakazImg
+{
+	width: 500px;
+
+}
+
+.ZakazInside
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 30px;
+
+}
+
+.ZakazInputs
+{
+	float: right;
+
+	margin-right: 150px;
+	margin-top: 100px;
+}
+
+.imiaIn
+{
+	height: 50px;
+	width: 600px;	
+}
+
+.famIn
+{
+	height: 50px;
+	width: 600px;
+}
+
+.otchIn
+{
+	height: 50px;
+	width: 600px;
+}
+
+.numIn
+{
+	height: 50px;
+	width: 600px;
+}
+
+.comIn
+{
+	height: 150px;
+	width: 600px;
+	vertical-align: top;
+}
+
+input
+{
+	margin-bottom: 10px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.makeZakaz
+{
+	margin-left: 50px;
+	width: 500px;
+	height: 70px;
+
+	background-color: #ff8000;
+
+	border: none;
+
+	font-family: 'Mulish', sans-serif;
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.makeZakaz:hover
+{
+	background-color: #e27100;
+}
+
+.Zakaz
+{
+	padding-bottom: 10px;
+	border-bottom: 3px black solid;
+}
+
+
+/*/////////////////////////////////////////////////////////////////*/
+.slider {
+    position: relative;
+    height: 500px;
+    margin: 0 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2); 
+    overflow: hidden;
+
+    margin-bottom: 50px;
+
+}
+.slider-slides {
+    position: relative;
+    height: 100%;
+    transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+    will-change: transform;
+
+}
+.slider-slide {
+    float: left;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;  
+
+
+}
+.slider-dots {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+
+}
+.slider-dot, 
+.slider-indicator {
+    display: block;
+    margin: 0 5px;
+    height: 14px;
+    background: #914900;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slider-indicator {
+    position: absolute;
+    background: white;
+    width: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);   
+    background: #ff8000;
+}
+.slider-indicator-left {
+    transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider-indicator-right {
+    transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+/*/////////////////////////////////////////////////////////////////*/
+
+.OtzivZag
+{
+	margin-top: 30px;
+	text-align: center;
+
+	font-size: 50px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+	font-weight: normal;
+}
+
+.imgInsideOtziv
+{
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.vtoroyOtziv
+{
+	margin-top: 50px;
+}
+
+.ImiaOtziv
+{
+	font-size: 35px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+	font-weight: normal;
+}
+
+.TextOtziv
+{
+	font-size: 25px;
+	font-family: 'Mulish', sans-serif;
+	color: #ff8000;
+	font-weight: normal;
+}
+
+.otzov
+{
+	margin-bottom: 100px;
+}
+
+.Otziv1
+{
+    margin-top: 70px;
+}
+
+.Otziv2
+{
+    margin-top: 30px;
+}
+
+.Otziv3
+{
+	margin-top: 70px;
+}
+
+.footer
+{
+	height: 50px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: left;
+
+	background-color: white;
+}
+
+.icon
+{
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.facebook
+{
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 50px;
+}
+
+
+
+
+
+
+
+#zatemnenie 
+{
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        overflow: hidden;
+        z-index: 500;
+}
+
+#okno 
+{
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #ff8000;
+        border-radius: 10px;
+        color: #0000cc;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        color: #ff8000;
+}
+
+#zatemnenie:target {display: block;}
+      .close 
+      {
+        display: inline-block;
+        border: 1px solid #ff8000;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 25px;
+        cursor:pointer;
+        height: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .close:hover {background: #e6e6ff;}

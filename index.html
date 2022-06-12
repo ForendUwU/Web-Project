@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Услуги по уборке листвы с опавших деревьев</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+
+</head>
+<body>
+	<div class="header">
+		<img src="iconWithBlackCompName.png" alt="" class="mainIcon">
+		<div class="inHeader">
+			
+			<img src="Email_Icon.png" alt="" class="emailIcon">
+			<div class="HeaderText">1195076@mtp.by</div> 
+			
+			<img src="Phone_Icon.png" alt="" class="emailIcon"> 
+			<div class="HeaderTextPhone">+375 44 9999999</div> 
+			
+			
+			<img src="Clock_Icon.png" alt="" class="emailIcon"> 
+			<div class="HeaderText">Без Выходных: 6:00 - 23:00</div>
+			
+		</div>
+	</div>
+
+
+	<div class="opis">
+		
+		<img src="листья.jpg" alt="" class="bigPhoto">
+
+		<div class="UpperButtons">
+			<div class="leftButton">
+			<a href="#Zakazik">Заказ</a>
+				</div>
+				<div class="vl"></div>
+			<div class="rightButton">
+				<a href="#Otzivchik">Отзывы</a>
+			</div>
+		</div>
+
+		<div class="textOpisZag">О нас</div>
+		<div class="textOpis">Надоело, что опавшие листья с деревьев портят вид вашей территории? 
+		Тогда наше предложение для Вас! Оформите заказ, и к вам приедет бригада опытных клинеров, которые разберутся с опавшими листьями за несколько часов!</div>
+	</div>
+
+
+
+	<div class="Zakaz"  id="Zakazik">
+		<div align="center" class="ZakazZag">
+			<div>Заказ Услуги</div>
+
+		</div>
+
+		<div class="ZakazInside">
+			<img src="human.png" class="ZakazImg">
+
+			<div class="ZakazInputs">
+				<div>
+					<input required type="text" placeholder="Фамилия" class="famIn" id="surname">
+				</div>
+				<div>
+					<input required type="text" placeholder="Имя" class="imiaIn" id="name">
+				</div>
+				<div>
+					<input required type="text" placeholder="Отчество" class="otchIn" id="otchestvo">
+				</div>
+				<div>
+					<input required type="text" placeholder="Номер телефона" class="numIn" id="phone">
+				</div>
+				<div>
+			 		<input type="textarea" placeholder="Комментарий к заказу (не обязательно)" class="comIn" id="comment"></input>
+				</div>
+				<div>
+					<a href="#zatemnenie"><input type="submit" id="btn" class="makeZakaz" onclick="MakeZakaz();"></input></a>
+				</div>
+
+				<div id="zatemnenie">
+     				<div id="okno">
+     					<div id="data"></div>
+        				<a href="#Zakazik" class="close">Закрыть окно</a>
+      				</div>
+    			</div>
+     
+
+
+			</div>
+		</div>
+	</div>
+
+
+<div class="slider" id="Otzivchik">
+	<div class="OtzivZag">Отзывы</div>
+    <div class="slider-slides">
+        <div class="slider-slide Otziv1">
+        	<img src="Отзыв1.png" class="imgInsideOtziv">
+        	<div class="ImiaOtziv">Елена Красноярская</div>
+        	<div class="TextOtziv">Листья всё время не давали мне жить спокойно и портили вид моего прекрасного двора, но благодаря компании CleanTree мне удалось справиться с проблемой опавших листьев. Быстрая, качественная, а самое главное недорогая уборка! Обязательно посоветую эту компанию своим знакомым.</div>
+        </div>
+
+        <div class="slider-slide Otziv2">
+        	<img src="Отзыв2.png" class="imgInsideOtziv vtoroyOtziv">
+        	<div class="ImiaOtziv">Валентин Неизвестный</div>
+        	<div class="TextOtziv TextOtziv2">Вот сидишь на улице и думаешь: "Как же надоели эти листья. Их яркость и разнообразность просто раздражает". Эти мысли крутятся в голове и не дают спокойно насладиться серыми видами. Я начал гуглить, как же обрести внутреннее удовлетворение, но ничего мне не подходило. Как вдруг мой хороший друг говорит мне про сервис CleanTree. Как оказалось решение моей проблемы было совсем рядом. Бригада опытных клинеров приехала всего за 10 минут и справилась с этими листьями очень оперативно, ещё и за такую цену. Вообщем, если вам, также как и мне, не нравятся валяющеися листья, обращайтесь в CleanTree!</div>
+        </div>
+
+        <div class="slider-slide Otziv3">
+        	<img src="Отзыв3.png" class="imgInsideOtziv">
+        	<div class="ImiaOtziv">Александр Птичкин</div>
+        	<div class="TextOtziv">У меня своё предприятие с огромной территорией, украшенной большим количеством деревьев. Осенью ходить по территории просто невозможно, листья то прилипают к ботинкам, то просто создают впечатление неухоженного предприятия. Я обратился в сервис CleanTree, который быстро помог мне справится с этой проблемой, ведь их бригады работают и на больших территориях и справляются с задачей уборки всего за пару часов.</div>
+        </div>
+    </div>
+    <div class="slider-dots"></div>
+</div>
+
+<div class="footer">
+	<a href="https://www.instagram.com/nikita.cringelov/"><img src="Instagram.png" class="icon"></a>
+	<a href="https://www.facebook.com/nikitaperepelovgg/"><img src="Facebook.png" class="icon"></a>
+	<a href="https://twitter.com/elonmusk"><img src="Twitter.png" class="icon"></a>
+
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://atuin.ru/demo/masked/jquery.maskedinput.min.js"></script>
+
+	<script>
+		$(function() {
+    $('.slider').each(function() {    
+        let $th = $(this);
+        $th.attr('data-pos', 1);
+        let slide = $th.find('.slider-slide');
+        let num = $th.find('.slider-slide').length;
+        let dots = $th.find('.slider-dots');
+        dots.prepend('<span class="slider-indicator"></span>');
+        for( let i = 1; i <= num; i++ ){ 
+            dots.append('<span style="width:' + 100 / num + '%" class="slider-dot" data-pos="'+ i +'"></span>');    
+        }
+        $th.find('.slider-slides').css('width', 100 * num + '%');
+        slide.css('width', 100 / num + '%');
+        $th.find('.slider-dot').on('click', function(){
+            let currentPos = $th.attr('data-pos');
+            let newPos = $(this).attr('data-pos');
+            let newDirection = (newPos > currentPos ? 'right' : 'left');
+            let currentDirection = (newPos < currentPos ? 'right' : 'left');
+            $th.find('.slider-indicator').removeClass('slider-indicator-' + currentDirection);
+            $th.find('.slider-indicator').addClass('slider-indicator-' + newDirection);        
+            $th.attr('data-pos', newPos);    
+            $th.find('.slider-slides').css('transform', 'translateX(-' + 100 / num * (newPos - 1) + '%)');            
+            $th.find('.slider-indicator').css({'left': 100 / num * (newPos - 1) + '%','right':100 - (100 / num) - 100 / num * (newPos - 1) + '%'});
+        });        
+        $th.find('.slider-indicator').css({'left': 0,'right': 100 - (100 / num) + '%'});
+    });
+});
+
+
+	
+$("#phone").mask("+375 (99) 999 - 9999");
+</script>
+	<script src="script.js"></script>
+
+</body>
+</html>
